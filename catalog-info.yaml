@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bohlin-dashboard"
+  description: "Bohlin Dashboard used for displaying TAP relevant data in a Bokeh dashboard"
+  caretakers: 
+    - user:dont.mind
+  tags:
+    - aws
+    - typescript
+    - cdk
+    - cicd
+    - docker
+    - ecs
+  annotations:
+    gitlab.com/instance: gitlab.asdf.com
+    gitlab.com/project-slug: asdf/bohlin-dashboard
+  labels:
+    hosting: aws
+    runtime: container-ecs-fargate
+    stages: 'y'
+    pipelines: 'y'
+spec:
+  type: service
+  lifecycle: production
+  owner: "user:default/dont.mind"
