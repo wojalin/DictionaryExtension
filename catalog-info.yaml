@@ -17,6 +17,8 @@ metadata:
     gitlab.com/project-slug: asdf/bohlin-dashboard
     backstage.io/source-location: url:https://https://github.com/wojalin/DictionaryExtension/
     github.com/project-slug: wojalin/DictionaryExtension
+    argocd/app-name: argo-airflow
+    goharbor.io/repository-slug: airflow-plugin/airflow_local
   labels:
     hosting: aws
     runtime: container-ecs-fargate
