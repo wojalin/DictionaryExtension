@@ -13,8 +13,6 @@ metadata:
     - docker
     - ecs
   annotations:
-    gitlab.com/instance: gitlab.asdf.com
-    gitlab.com/project-slug: asdf/bohlin-dashboard
     backstage.io/source-location: url:https://https://github.com/wojalin/DictionaryExtension/
     github.com/project-slug: wojalin/DictionaryExtension
     argocd/app-name: argo-airflow
