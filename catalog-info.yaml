@@ -13,7 +13,7 @@ metadata:
     - docker
     - ecs
   annotations:
-    backstage.io/source-location: url:https://https://github.com/wojalin/DictionaryExtension/
+    backstage.io/source-location: url:https://github.com/wojalin/DictionaryExtension/
     github.com/project-slug: wojalin/DictionaryExtension
     argocd/app-name: argo-airflow
     goharbor.io/repository-slug: airflow-plugin/airflow_local
